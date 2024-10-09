@@ -55,27 +55,12 @@ const AboutAreaOne = () => {
                   <div className='col-md-6'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
-                      </div>
-                      <div className='details'>
-                        <h5>Our Ambition</h5>
-                        <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-md-6'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
                         <img src='assets/img/icon/3.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Our Ambition</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                        Impulsar el futuro digital con soluciones tecnológicas innovadoras para transformar tu negocio.
                         </p>
                       </div>
                     </div>
