@@ -30,7 +30,7 @@ const BannerOne = () => {
                   data-aos-delay='100'
                   data-aos-duration='1500'
                 >
-                  DESIGNING FOR THE FUTURE
+                  DISEÑANDO PARA EL FUTURO
                 </h6>
                 <h2
                   className='title'
@@ -38,7 +38,7 @@ const BannerOne = () => {
                   data-aos-delay='200'
                   data-aos-duration='1500'
                 >
-                  Making The <span>Digital</span> World Work For You
+                  Haciendo Que El Mundo <span>Digital</span> Trabaje Para Ti
                 </h2>
                 <p
                   className='content pe-xl-5'
