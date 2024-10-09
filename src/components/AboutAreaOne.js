@@ -43,14 +43,13 @@ const AboutAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                <h6 className='sub-title'>ABOUT US</h6>
+                <h6 className='sub-title'>Sobre nosotros</h6>
                 <h2 className='title'>
-                  It Is A Critical Component Of <span>Modern</span> Businesses
+                  Nos enfocamos en soluciones que <span>impactan</span> los negocios
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                En Quantumtech ofrecemos soluciones digitales innovadoras y personalizadas, diseñadas para optimizar procesos y 
+                potenciar el crecimiento de tu empresa. Impulsamos el cambio con tecnología avanzada, asegurando eficiencia y resultados adaptados a tus necesidades.
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
