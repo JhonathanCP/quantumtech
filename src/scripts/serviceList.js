@@ -1,7 +1,7 @@
 let serviceList = [
   {
     title: "Desarrollo de aplicaciones",
-    des: "Ofrecemos aplicaciones como servicio (PaaS) personalizadas para optimizar procesos y escalar tu negocio de manera eficiente.",
+    des: "Ofrecemos desarrollo de aplicaciones personalizadas para optimizar procesos y escalar tu negocio de manera eficiente.",
     img: "assets/img/service-icon/1.png",
   },
   {
