@@ -26,7 +26,7 @@ const page = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={'Nosotros'} />
+      <Breadcrumb title={'Sobre nosotros'} />
 
       {/* About Area One */}
       <AboutAreaOne />
