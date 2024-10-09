@@ -58,7 +58,7 @@ const AboutAreaOne = () => {
                         <img src='assets/img/icon/3.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Nuestras ambiciones</h5>
                         <p>
                         Impulsar el futuro digital con soluciones tecnológicas innovadoras para transformar tu negocio.
                         </p>
