@@ -34,18 +34,6 @@ const page = () => {
       {/* ServiceAreaOne */}
       <ServiceAreaOne />
 
-      {/* FAQ Area One */}
-      <FaqAreaOne />
-
-      {/* Team Area One */}
-      <TeamAreaOne />
-
-      {/* Counter Area One */}
-      <CounterAreaOne />
-
-      {/* Contact Area One */}
-      <ContactAreaOne />
-
       {/* Work Process One */}
       <WorkProcessOne />
 
