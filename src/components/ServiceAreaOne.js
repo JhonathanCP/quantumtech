@@ -17,7 +17,7 @@ const ServiceAreaOne = () => {
           <div className='section-title text-center'>
             <h6 className='sub-title'>Servicios creativos</h6>
             <h2 className='title'>
-              Tu compañero en éxito <span> digital</span>
+              Tu acompañante en el éxito <span> digital</span>
             </h2>
           </div>
           <div className='row'>
