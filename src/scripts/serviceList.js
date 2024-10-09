@@ -5,7 +5,7 @@ let serviceList = [
     img: "assets/img/service-icon/1.png",
   },
   {
-    title: "Implementación de bases de datos",
+    title: "Bases de datos",
     des: "Implementamos bases de datos robustas y escalables que garantizan la seguridad, accesibilidad y eficiencia de tus datos.",
     img: "assets/img/service-icon/3.png",
   },
