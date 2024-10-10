@@ -46,9 +46,8 @@ const BannerOne = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                  And In Order To Make A Business, Brand Advertising And
-                  Marketing Plays An Important Role. Similarly, In Making
-                  Cultivation Business Are Necessary.
+                  Potencia tu negocio con soluciones tecnológicas a la medida. Combinamos innovación, marketing y estrategia
+                  para llevar tu marca al siguiente nivel. Nos especializamos en transformar ideas en resultados tangibles.
                 </p>
                 <Link
                   className='btn btn-border-base'
@@ -57,7 +56,7 @@ const BannerOne = () => {
                   data-aos-duration='1500'
                   href='/about'
                 >
-                  Discover More <FaPlus />
+                  Descubre más <FaPlus />
                 </Link>
               </div>
             </div>

@@ -45,13 +45,13 @@ const FooterOne = () => {
                 </div>
                 <div className="details">
                   <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
+                    Medios de comunicación
                   </p>
                   <p className="mt-3">
-                    <FaPhoneAlt /> (+888) 123 456 765
+                    <FaPhoneAlt /> +51 955 517 903
                   </p>
                   <p className="mt-2">
-                    <FaEnvelope /> (+888) 123 456 765
+                    <FaEnvelope /> admin@quantumtechpe.com
                   </p>
                   <ul className="social-media">
                     <li>
@@ -80,117 +80,27 @@ const FooterOne = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Our Service</h4>
+                <h4 className="widget-title">Nuestros serivicios</h4>
                 <ul>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Ui Design
+                      <FaArrowRight /> Desarrollo de aplicaciones
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Web design
+                      <FaArrowRight /> Bases de datos
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Digital marketing{' '}
+                      <FaArrowRight /> Servicios web
                     </Link>
                   </li>
                   <li>
                     <Link href="/service">
-                      <FaArrowRight /> Video Editing
+                      <FaArrowRight /> Reportería
                     </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Pc Repairs
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Web Development
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="widget widget_nav_menu">
-                <h4 className="widget-title">Pay links</h4>
-                <ul>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Credit industrys
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Reasearch sector
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Finance Sector{' '}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Credit industrys
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Reasearch sector
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/service">
-                      <FaArrowRight /> Finance Sector
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="widget widget-recent-post">
-                <h4 className="widget-title">Contact us</h4>
-                <ul>
-                  <li>
-                    <div className="media">
-                      <div className="media-left">
-                        <img src="assets/img/widget/1.png" alt="blog" />
-                      </div>
-                      <div className="media-body align-self-center">
-                        <div className="post-info mb-2">
-                          <FaCalendarAlt />
-                          <span>january 11, 2023</span>
-                        </div>
-                        <h6 className="title mb-0">
-                          <Link href="/blog-details">
-                            Social Media For Promote Business.
-                          </Link>
-                        </h6>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="media">
-                      <div className="media-left">
-                        <img src="assets/img/widget/2.png" alt="blog" />
-                      </div>
-                      <div className="media-body align-self-center">
-                        <div className="post-info mb-2">
-                          <FaCalendarAlt />
-                          <span>january 11, 2023</span>
-                        </div>
-                        <h6 className="title mb-0">
-                          <Link href="/blog-details">
-                            Marketing For Base market watch
-                          </Link>
-                        </h6>
-                      </div>
-                    </div>
                   </li>
                 </ul>
               </div>
@@ -201,12 +111,7 @@ const FooterOne = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 align-self-center">
-                <p>© AglieTech 2024 | All Rights Reserved</p>
-              </div>
-              <div className="col-md-6 text-lg-end">
-                <Link href="#">Trams &amp; Condition</Link>
-                <Link href="#">Privacy Policy</Link>
-                <Link href="#">Contact Us</Link>
+                <p>© Quantumtech Solutions 2024 | Todos los derechos reservados</p>
               </div>
             </div>
           </div>
