@@ -128,6 +128,9 @@ const NavBar = () => {
               <li className="menu-item-has-children">
                 <Link href="#">Información</Link>
                 <ul className="sub-menu">
+                  <li>
+                    <Link href="/about">Sobre nosotros</Link>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -140,8 +143,8 @@ const NavBar = () => {
               <span className="icon">
                 <img src="assets/img/icon/1.png" alt="img" />
               </span>
-              <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
+              <span>Necesitas ayuda?</span>
+              <h5>+51 955 517 903</h5>
             </a>
           </div>
         </div>
