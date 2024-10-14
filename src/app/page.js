@@ -35,29 +35,11 @@ const page = () => {
       {/* Service Area One */}
       <ServiceAreaOne />
 
-      {/* FAQ Area One */}
-      <FaqAreaOne />
-
-      {/* Case Study Area One */}
-      <CaseStudyAreaOne />
-
-      {/* Team Area One */}
-      <TeamAreaOne />
-
-      {/* Counter Area One */}
-      <CounterAreaOne />
-
       {/* Contact Area One */}
       <ContactAreaOne />
 
       {/* Work Process One */}
       <WorkProcessOne />
-
-      {/* Pricing Area One */}
-      <PricingAreaOne />
-
-      {/* Blog Area One */}
-      <BlogAreaOne />
 
       {/* Footer One */}
       <FooterOne />
