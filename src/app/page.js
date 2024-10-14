@@ -35,9 +35,6 @@ const page = () => {
       {/* Service Area One */}
       <ServiceAreaOne />
 
-      {/* Contact Area One */}
-      <ContactAreaOne />
-
       {/* Work Process One */}
       <WorkProcessOne />
 
