@@ -34,7 +34,7 @@ const WorkProcessOne = () => {
                 </div>
                 <div className='details'>
                   <p className='process-count'>Paso 02</p>
-                  <h5 className='mb-3'>Investigación de tecnologías y modelamiento</h5>
+                  <h5 className='mb-3'>Investigación de tecnologías</h5>
                   <p className='content'>
                   Investigamos y seleccionamos las tecnologías más adecuadas para las soluciones planteadas, modelando una versión preliminar optimizada.
                   </p>
