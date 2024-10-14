@@ -16,26 +16,6 @@ const FooterOne = () => {
     <>
       {/* ================== Footer One Start ==================*/}
       <footer className="footer-area bg-black bg-cover">
-        <div className="footer-subscribe">
-          <div className="container">
-            <div
-              className="footer-subscribe-inner bg-cover"
-              style={{ backgroundImage: 'url("./assets/img/bg/6.png")' }}
-            >
-              <div className="row">
-                <div className="col-lg-6">
-                  <h2 className="mb-lg-0 mb-3">Subscribe To Our Newsletter</h2>
-                </div>
-                <div className="col-lg-6 align-self-center text-lg-end">
-                  <input type="text" placeholder="Your e-mail address" />
-                  <Link className="btn btn-black border-radius-0" href="#">
-                    Submit now
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
