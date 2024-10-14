@@ -49,15 +49,6 @@ const BannerOne = () => {
                   Potencia tu negocio con soluciones tecnológicas a la medida. Combinamos innovación, marketing y estrategia
                   para llevar tu marca al siguiente nivel. Nos especializamos en transformar ideas en resultados tangibles.
                 </p>
-                <Link
-                  className='btn btn-border-base'
-                  data-aos='fade-right'
-                  data-aos-delay='300'
-                  data-aos-duration='1500'
-                  href='/about'
-                >
-                  Descubre más <FaPlus />
-                </Link>
               </div>
             </div>
             <div className='col-xl-4 col-lg-5 col-md-8 offset-xl-2 offset-lg-1'>
