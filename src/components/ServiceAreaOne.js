@@ -33,7 +33,7 @@ const ServiceAreaOne = () => {
                     </h5>
                     <p>{data.des}</p>
                     <Link className='btn btn-border-base' href='/service-details'>
-                      Touch More <FaPlus />
+                      Más <FaPlus />
                     </Link>
                   </div>
                 </div>
