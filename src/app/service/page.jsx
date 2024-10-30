@@ -3,6 +3,7 @@ import FooterOne from "@/components/FooterOne";
 import NavBar from "@/components/NavBar";
 import PricingAreaOne from "@/components/PricingAreaOne";
 import ServiceAreaGroup from "@/components/ServiceAreaGroup";
+import ServiceAreaOne from "@/components/ServiceAreaOne";
 
 
 
