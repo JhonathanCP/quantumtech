@@ -103,7 +103,7 @@ const NavBar = () => {
           >
             <ul className="navbar-nav menu-open text-lg-end">
               <li className="menu-item-has-children">
-                <Link href="/service">Servicios</Link>
+                <Link href="/service">Nuestros servicios</Link>
               </li>
               <li className="menu-item-has-children">
                 <Link href="#">Información</Link>
