@@ -22,13 +22,10 @@ const page = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={'Service'} />
+      <Breadcrumb title={'Nuestros servicios'} />
 
       {/* Service Area One */}
-      <ServiceAreaGroup />
-
-      {/* Pricing Area One */}
-      <PricingAreaOne />
+      <ServiceAreaOne />
 
       {/* Footer One */}
       <FooterOne />
