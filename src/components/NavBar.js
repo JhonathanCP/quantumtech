@@ -117,12 +117,6 @@ const NavBar = () => {
                   <li>
                     <Link href="/service-4">Reportería</Link>
                   </li>
-                  <li>
-                    <Link href="/service-5">Service 05</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Service Single</Link>
-                  </li>
                 </ul>
               </li>
               <li className="menu-item-has-children">
