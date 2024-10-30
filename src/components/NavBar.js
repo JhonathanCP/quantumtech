@@ -106,16 +106,7 @@ const NavBar = () => {
                 <Link href="#">Servicios</Link>
                 <ul className="sub-menu">
                   <li>
-                    <Link href="/service">Desarrollo de aplicaciones</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-2">Bases de datos</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-3">Servicios web</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-4">Reportería</Link>
+                    <Link href="/service">Desarrollo de aplicaciones y sistemas</Link>
                   </li>
                 </ul>
               </li>
