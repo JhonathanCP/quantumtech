@@ -104,11 +104,6 @@ const NavBar = () => {
             <ul className="navbar-nav menu-open text-lg-end">
               <li className="menu-item-has-children">
                 <Link href="/service">Servicios</Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link href="/service">Desarrollo de aplicaciones y sistemas</Link>
-                  </li>
-                </ul>
               </li>
               <li className="menu-item-has-children">
                 <Link href="#">Información</Link>
