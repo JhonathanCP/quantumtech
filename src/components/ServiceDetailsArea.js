@@ -17,23 +17,17 @@ const ServiceDetailsArea = () => {
               <div className="td-sidebar service-sidebar">
                 <div className="widget widget_catagory">
                   <h5 className="widget-title">
-                    <FaArrowRight /> All Service lists
+                    <FaArrowRight /> Lista de servicios
                   </h5>
                   <ul className="catagory-items">
                     <li>
-                      <Link href="/service-details"> Planning Department</Link>
+                      <Link href="/service-details"> Desarrollo de aplicaciones</Link>
                     </li>
                     <li>
-                      <Link href="/service-details"> Software Department</Link>
+                      <Link href="/service-details"> Implementación de bases de datos</Link>
                     </li>
                     <li>
-                      <Link href="/service-details"> Hardware Department</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details"> It Department</Link>
-                    </li>
-                    <li>
-                      <Link href="/service-details"> Others Development</Link>
+                      <Link href="/service-details"> Servicios web</Link>
                     </li>
                   </ul>
                 </div>
@@ -41,30 +35,6 @@ const ServiceDetailsArea = () => {
                   <div className="thumb">
                     <img src="assets/img/about/9.png" alt="img" />
                   </div>
-                  <div className="details">
-                    <Link className="btn btn-base border-radius-5" href="#">
-                      Discover our company +
-                    </Link>
-                  </div>
-                </div>
-                <div className="widget widget_download">
-                  <h5 className="widget-title">
-                    <FaArrowRight /> Download
-                  </h5>
-                  <ul>
-                    <li>
-                      <Link href="#">
-                        {' '}
-                        Company Profile <FaAngleDoubleRight />
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        {' '}
-                        Zip File Download <FaAngleDoubleRight />
-                      </Link>
-                    </li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -76,60 +46,35 @@ const ServiceDetailsArea = () => {
                   </div>
                   <div className="details">
                     <h4>
-                      Making this the first true generator on the Internet
+                    Tu principal aliado en la transformación digital
                     </h4>
                     <p>
-                      Cras varius. Donec vitae orci sed dolor rutrum auctor.
-                      Fusce egestas elit eget lorem. Suspendisse nisl elit,
-                      rhoncus eget elementum acondimentum eget, diam. Nam at
-                      tortor in tellus interdum sagitliquam lobortis. Donec orci
-                      lectus, aliquam ut, faucibus non, euismod id, nulla.
-                      Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum
-                      eu odio. Vivamus laoreet.
+                      Desarrollo de aplicaciones: Diseñamos y desarrollamos aplicaciones personalizadas 
+                      que se adaptan perfectamente a las necesidades de tu negocio. Nuestro equipo crea 
+                      soluciones intuitivas y de alto rendimiento, optimizadas para mejorar la 
+                      productividad, la eficiencia y la experiencia del usuario. Desde aplicaciones móviles hasta 
+                      plataformas empresariales, transformamos tus ideas en herramientas digitales que 
+                      impulsan el crecimiento.
                     </p>
                     <p>
-                      Lorem available market standard dummy text available
-                      market industry Lorem Ipsum simply dummy text of free
-                      available market.There are many variations of passages of
-                      Lorem Ipsum available, but the majority have suffered
-                      alteration in some form,
+                      Implementación de bases de datos: Nos especializamos en la implementación de bases de datos robustas 
+                      y seguras, fundamentales para la gestión eficiente de los datos en cualquier organización. Nuestro enfoque 
+                      garantiza la integridad y disponibilidad de tu información, permitiendo que los datos fluyan de manera 
+                      estructurada y accesible. Diseñamos bases de datos a medida, adaptadas a las demandas de cada proyecto, para apoyar 
+                      una toma de decisiones rápida y fundamentada.
                     </p>
-                    <h4>Get touch have any question ?</h4>
                     <p>
-                      It is a long established fact that a reader will be distr
-                      acted bioiiy the end gail readable content of a page when
-                      looking.
+                      Servicios web: Desarrollamos e integramos servicios web escalables que permiten a tu empresa conectarse en tiempo real 
+                      con usuarios y sistemas. A través de interfaces de programación de aplicaciones (APIs) y servicios web 
+                      personalizados, facilitamos la interoperabilidad entre plataformas y aseguramos la eficiencia operativa de tu 
+                      negocio en el entorno digital. Nos enfocamos en seguridad, rendimiento y flexibilidad para garantizar una 
+                      experiencia online fluida y confiable.
                     </p>
+                    <h4>Ponte en contacto si tienes consultas</h4>
                     <div
                       className="accordion accordion-inner accordion-icon-left mt-3 mb-4"
                       id="accordionExample"
                     >
-                      <div className="accordion-item">
-                        <h2 className="accordion-header" id="headingOne">
-                          <button
-                            className="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne"
-                            aria-expanded="true"
-                            aria-controls="collapseOne"
-                          >
-                            What services do you offer?
-                          </button>
-                        </h2>
-                        <div
-                          id="collapseOne"
-                          className="accordion-collapse collapse show"
-                          aria-labelledby="headingOne"
-                          data-bs-parent="#accordionExample"
-                        >
-                          <div className="accordion-body">
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
-                        </div>
-                      </div>
                       <div className="accordion-item">
                         <h2 className="accordion-header" id="headingTwo">
                           <button
@@ -140,7 +85,7 @@ const ServiceDetailsArea = () => {
                             aria-expanded="false"
                             aria-controls="collapseTwo"
                           >
-                            How long does it take for you to complete a project?
+                            ¿Cuanto tiempo toma completar un proyecto?
                           </button>
                         </h2>
                         <div
@@ -150,9 +95,9 @@ const ServiceDetailsArea = () => {
                           data-bs-parent="#accordionExample"
                         >
                           <div className="accordion-body">
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
+                          La duración del proyecto variará según su complejidad y las necesidades 
+                          específicas del usuario. Para proyectos pequeños, estimamos un plazo de varias semanas, mientras 
+                          que los proyectos de mayor envergadura pueden requerir entre 4 y 5 meses para su implementación completa.
                           </div>
                         </div>
                       </div>
@@ -166,7 +111,7 @@ const ServiceDetailsArea = () => {
                             aria-expanded="false"
                             aria-controls="collapseThree"
                           >
-                            How much does it cost to work with your agency?
+                            ¿Cuanto cuesta trabajar con nosotros?
                           </button>
                         </h2>
                         <div
@@ -176,45 +121,36 @@ const ServiceDetailsArea = () => {
                           data-bs-parent="#accordionExample"
                         >
                           <div className="accordion-body">
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
+                          El costo del servicio dependerá de la complejidad y los requerimientos específicos de cada proyecto. Para obtener una cotización precisa, no dude en ponerse en contacto con nosotros.
                           </div>
                         </div>
                       </div>
                     </div>
-                    <h4>Our Best it company</h4>
-                    <p>
-                      Thooiie point the of using the table.Your Startup industry
-                      is ours standard our service decesion loream saum solar
-                      sysem in the world.
-                    </p>
+                    <h4>Lo mejor de nuestra compañía</h4>
                     <div className="row">
                       <div className="col-md-6">
                         <ul className="single-list-inner style-check style-check mb-3">
                           <li>
-                            <FaCheckCircle /> Creating a Balanced and Nutritious
+                            <FaCheckCircle /> Calidad en cada proyecto
                           </li>
                           <li>
-                            <FaCheckCircle /> iTechnology that helps grow
-                            companies
+                            <FaCheckCircle /> Flexibilidad y adaptación
                           </li>
                           <li>
-                            <FaCheckCircle /> Everything you need to succeed
+                            <FaCheckCircle /> Resultados medibles y orientados al valor
                           </li>
                         </ul>
                       </div>
                       <div className="col-md-6">
                         <ul className="single-list-inner style-check style-check mb-3">
                           <li>
-                            <FaCheckCircle /> Creating a Balanced and Nutritious
+                            <FaCheckCircle /> Equipo multidisciplinario
                           </li>
                           <li>
-                            <FaCheckCircle /> iTechnology that helps grow
-                            companies
+                            <FaCheckCircle /> Alto nivel de satisfacción del cliente
                           </li>
                           <li>
-                            <FaCheckCircle /> Everything you need to succeed
+                            <FaCheckCircle /> Experiencia y conocimiento especializado
                           </li>
                         </ul>
                       </div>
