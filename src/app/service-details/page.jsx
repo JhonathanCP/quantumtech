@@ -21,7 +21,7 @@ const page = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Service Details"} />
+      <Breadcrumb title={"Nuestros servicios"} />
 
       {/* Service Details Area */}
       <ServiceDetailsArea />
