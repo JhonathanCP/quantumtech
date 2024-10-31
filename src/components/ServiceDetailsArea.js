@@ -70,7 +70,7 @@ const ServiceDetailsArea = () => {
                       negocio en el entorno digital. Nos enfocamos en seguridad, rendimiento y flexibilidad para garantizar una 
                       experiencia online fluida y confiable.
                     </p>
-                    <h4>Ponte en contacto si tienes consultas</h4>
+                    <h4>Ponte en contacto para resolver tus dudas</h4>
                     <div
                       className="accordion accordion-inner accordion-icon-left mt-3 mb-4"
                       id="accordionExample"
