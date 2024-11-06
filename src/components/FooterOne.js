@@ -29,7 +29,7 @@ const FooterOne = () => {
                 <div className="col-lg-6 align-self-center text-lg-end">
                   <input type="text" placeholder="Ingresa tu email" />
                   <Link className="btn btn-black border-radius-0" href="#">
-                    Submit now
+                    Enviar
                   </Link>
                 </div>
               </div>
