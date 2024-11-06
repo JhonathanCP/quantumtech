@@ -24,7 +24,7 @@ const FooterOne = () => {
             >
               <div className="row">
                 <div className="col-lg-6">
-                  <h2 className="mb-lg-0 mb-3">Suscribete para más noivedades</h2>
+                  <h2 className="mb-lg-0 mb-3">Suscribete para más novedades</h2>
                 </div>
                 <div className="col-lg-6 align-self-center text-lg-end">
                   <input type="text" placeholder="Ingresa tu email" />
