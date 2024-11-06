@@ -42,7 +42,7 @@ const ContactMain = () => {
           <div className="container">
             <div className="contact-page-inner bg-gray">
               <div className="section-title mb-4 pb-2">
-                <h2 className="title">Contactanos directamente </h2>
+                <h2 className="title">Mándanos un mensaje</h2>
                 <p className="content mb-0">
                 Déjanos tus dudas y sugerencias en nuestra bandeja de entrada, y nos pondremos 
                 en contacto contigo lo antes posible.
