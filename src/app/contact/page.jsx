@@ -26,6 +26,9 @@ const page = () => {
       {/* Contact Main */}
       <ContactMain />
 
+      {/* Spacer */}
+      <div style={{ marginBottom: "40px" }} />
+
       {/* Footer One */}
       <FooterOne />
 

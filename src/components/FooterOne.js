@@ -24,10 +24,10 @@ const FooterOne = () => {
             >
               <div className="row">
                 <div className="col-lg-6">
-                  <h2 className="mb-lg-0 mb-3">Subscribe To Our Newsletter</h2>
+                  <h2 className="mb-lg-0 mb-3">Suscribete para más noticias</h2>
                 </div>
                 <div className="col-lg-6 align-self-center text-lg-end">
-                  <input type="text" placeholder="Your e-mail address" />
+                  <input type="text" placeholder="Ingresa tu dirección de correo" />
                   <Link className="btn btn-black border-radius-0" href="#">
                     Submit now
                   </Link>
