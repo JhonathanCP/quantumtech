@@ -151,6 +151,12 @@ const ContactMain = () => {
         </div>
         {/* contact list start */}
         {/* map start */}
+        <div className="contact-g-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d97511.04316711595!2d-77.0428!3d-12.0464!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spe!4v1589109092857!5m2!1sen!2spe"
+            title="new title"
+          />
+        </div>
         {/* map end */}
       </>
 
