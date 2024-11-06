@@ -21,7 +21,7 @@ const page = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Contact"} />
+      <Breadcrumb title={"Contactanos"} />
 
       {/* Contact Main */}
       <ContactMain />

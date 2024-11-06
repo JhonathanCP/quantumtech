@@ -18,7 +18,7 @@ const ContactMain = () => {
       .then(
         (result) => {
           if (result.text === 'OK') {
-            toast.success('Massage Sent Successfully!');
+            toast.success('¡Mensaje enviado satisfactoriamente!');
             form.current[0].value = '';
             form.current[1].value = '';
             form.current[2].value = '';
@@ -27,7 +27,7 @@ const ContactMain = () => {
         },
         (error) => {
           if (error.text !== 'OK') {
-            toast.success('Massage Not Sent!');
+            toast.success('¡Mensaje no enviado!');
           }
         },
       );
@@ -42,12 +42,10 @@ const ContactMain = () => {
           <div className="container">
             <div className="contact-page-inner bg-gray">
               <div className="section-title mb-4 pb-2">
-                <h2 className="title">Direct contact us? </h2>
+                <h2 className="title">Contactanos directamente </h2>
                 <p className="content mb-0">
-                  For your car we will do everything advice, repairs and
-                  maintenance. We are the some preferred choice by many car
-                  owners because our experience and knowledge is selfe
-                  vident.For your car we will do som everything.
+                Déjanos tus dudas y sugerencias en nuestra bandeja de entrada, y nos pondremos 
+                en contacto contigo lo antes posible.
                 </p>
               </div>
               <form ref={form} onSubmit={sendEmail}>
@@ -58,7 +56,7 @@ const ContactMain = () => {
                         id="name"
                         name="user_name"
                         type="text"
-                        placeholder="Enter Your Name."
+                        placeholder="Ingresa tu noombre."
                         required
                       />
                     </div>
@@ -69,7 +67,7 @@ const ContactMain = () => {
                         id="email"
                         name="user_email"
                         type="email"
-                        placeholder="Enter Your Email."
+                        placeholder="Ingresa tu email"
                         required
                       />
                     </div>
@@ -80,7 +78,7 @@ const ContactMain = () => {
                         id="subject"
                         name="subject"
                         type="text"
-                        placeholder="Enter Your Subject."
+                        placeholder="Ingresa el asunto"
                         required
                       />
                     </div>
@@ -92,7 +90,7 @@ const ContactMain = () => {
                         id="massage"
                         cols="1"
                         rows="5"
-                        placeholder="Enter Your Massage ..."
+                        placeholder="Ingresa tu mensaje"
                         required
                       />
                     </div>
@@ -102,7 +100,7 @@ const ContactMain = () => {
                       type="submit"
                       className="btn btn-base border-radius-5"
                     >
-                      Send Message
+                      Enviar mensaje
                     </button>
                   </div>
                 </div>
@@ -121,8 +119,8 @@ const ContactMain = () => {
                     <img src="assets/img/icon/13.svg" alt="img" />
                   </div>
                   <div className="media-body">
-                    <h5>Contacts us</h5>
-                    <h6>88 01234 2345 12</h6>
+                    <h5>Contactanos</h5>
+                    <h6>+51955517903</h6>
                   </div>
                 </div>
               </div>
@@ -132,8 +130,8 @@ const ContactMain = () => {
                     <img src="assets/img/icon/14.svg" alt="img" />
                   </div>
                   <div className="media-body">
-                    <h5>Your Email</h5>
-                    <h6>Comism@mail.com</h6>
+                    <h5>Nuestro email</h5>
+                    <h6>admin@quantumtechpe.com</h6>
                   </div>
                 </div>
               </div>
@@ -143,8 +141,8 @@ const ContactMain = () => {
                     <img src="assets/img/icon/15.svg" alt="img" />
                   </div>
                   <div className="media-body">
-                    <h5>Location</h5>
-                    <h6>99 united,America</h6>
+                    <h5>Ubicación</h5>
+                    <h6>Lima, Perú</h6>
                   </div>
                 </div>
               </div>
@@ -153,12 +151,6 @@ const ContactMain = () => {
         </div>
         {/* contact list start */}
         {/* map start */}
-        <div className="contact-g-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.601361499546!2d90.3598076!3d23.7803374!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1589109092857!5m2!1sen!2sbd"
-            title="new title"
-          />
-        </div>
         {/* map end */}
       </>
 
