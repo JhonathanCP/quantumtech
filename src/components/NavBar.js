@@ -84,7 +84,7 @@ const NavBar = () => {
             </button>
           </div>
           <div className="logo">
-            <Link href="/index-2">
+            <Link href="/">
               <img src="assets/img/logo.png" alt="img" />
             </Link>
           </div>
