@@ -21,7 +21,7 @@ const ContactMain = () => {
     try {
       const response = await axios.post('/api/send-email', formData);
       if (response.data.success) {
-        toast.success('¡Mensaje enviado satisfactoriamente!');
+        toast.success('¡Mensaje enviado satisfactoriamente!', {position: 'top-center'});
         setFormData({
           user_name: '',
           user_email: '',
