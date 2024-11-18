@@ -14,10 +14,11 @@ import WorkProcessOne from "@/components/WorkProcessOne";
 
 
 export const metadata = {
-  title: "Home || AglieTech - IT Solutions & Technology NEXT JS Template",
+  title: "Home || QuantumTech Solutions",
   description:
-    "Agiletech provide you to build the best agency, app, business, digital, it services, it solutions, network solution, startup, technology, technology company, technology service template.",
+    "Haciendo Que El Mundo Digital Trabaje Para Ti",
 };
+
 
 
 const page = () => {
