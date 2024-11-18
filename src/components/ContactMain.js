@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
+import axios from 'axios';
 import { toast, Toaster } from 'react-hot-toast';
-import nodemailer from 'nodemailer';
 
 const ContactMain = () => {
   const [formData, setFormData] = useState({
@@ -18,37 +18,20 @@ const ContactMain = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();
-
-    // Configurar el transporte de Nodemailer
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: 'admin@quantumtechpe.com', // Tu correo
-        pass: 'mjil kawh gclz mjlm', // Contraseña generada en Google (App Password)
-      },
-    });
-
-    // Opciones del correo
-    const mailOptions = {
-      from: 'admin@quantumtechpe.com',
-      to: 'admin@quantumtechpe.com', // Destinatario (puede ser el mismo correo)
-      subject: `Nuevo mensaje de: ${formData.user_name} - ${formData.subject}`,
-      text: `Correo: ${formData.user_email}\n\n${formData.message}`,
-    };
-
     try {
-      // Enviar el correo
-      await transporter.sendMail(mailOptions);
-      toast.success('¡Mensaje enviado satisfactoriamente!');
-      setFormData({
-        user_name: '',
-        user_email: '',
-        subject: '',
-        message: '',
-      });
+      const response = await axios.post('/api/send-email', formData);
+      if (response.data.success) {
+        toast.success('¡Mensaje enviado satisfactoriamente!');
+        setFormData({
+          user_name: '',
+          user_email: '',
+          subject: '',
+          message: '',
+        });
+      }
     } catch (error) {
-      console.error('Error enviando correo:', error);
       toast.error('¡No se pudo enviar el mensaje!');
+      console.error(error);
     }
   };
 
@@ -70,7 +53,6 @@ const ContactMain = () => {
                 <div className="col-md-12">
                   <div className="single-input-inner">
                     <input
-                      id="name"
                       name="user_name"
                       type="text"
                       placeholder="Ingresa tu nombre"
@@ -83,7 +65,6 @@ const ContactMain = () => {
                 <div className="col-md-12">
                   <div className="single-input-inner">
                     <input
-                      id="email"
                       name="user_email"
                       type="email"
                       placeholder="Ingresa tu email"
@@ -96,7 +77,6 @@ const ContactMain = () => {
                 <div className="col-md-12">
                   <div className="single-input-inner">
                     <input
-                      id="subject"
                       name="subject"
                       type="text"
                       placeholder="Asunto"
@@ -109,16 +89,15 @@ const ContactMain = () => {
                 <div className="col-md-12">
                   <div className="single-input-inner">
                     <textarea
-                      id="message"
                       name="message"
-                      placeholder="Mensaje"
+                      placeholder="Escribe tu mensaje"
                       value={formData.message}
                       onChange={handleChange}
                       required
-                    ></textarea>
+                    />
                   </div>
                 </div>
-                <div className="col-md-12">
+                <div className="col-12">
                   <button type="submit" className="btn btn-primary">
                     Enviar Mensaje
                   </button>
